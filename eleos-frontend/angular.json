@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "eleos-frontend:build:production"
+              "buildTarget": "eleos-frontend:build:production"
             },
             "development": {
-              "browserTarget": "eleos-frontend:build:development"
+              "buildTarget": "eleos-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "eleos-frontend:build"
+            "buildTarget": "eleos-frontend:build"
           }
         },
         "test": {
